@@ -9,8 +9,8 @@ import reactor.core.publisher.Flux;
 @Configuration
 public class ItcljFunction {
 
-    @Bean
-    public Function<Flux<String>, Flux<Integer>> add() {
-        return flux -> flux.map(value -> Integer.parseInt(value) + 10);
-    }
+//    @Bean
+//    public Function<Flux<String>, Flux<Integer>> add() {
+//        return flux -> flux.map(value -> Integer.parseInt(value) + 10);
+//    }
 }
